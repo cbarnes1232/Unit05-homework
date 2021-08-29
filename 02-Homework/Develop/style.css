@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0%;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+
+}
+header{
+  background-image:linear-gradient(120deg,#487eb0,#fbc531) ;
+ 
+
+}
+
+
+body{
+  background-image:linear-gradient(120deg,#487eb0,#fbc531) ;
+  min-height: 100vh;
+
+}
+
+.tblk{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.tblk{
+  width: 100%;
+  border: none;
+  border-bottom:2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+
+}
+h1{
+  text-align: center;
+}
+
+h3{
+  margin: 10px 0;
+
+
+}
+
+::placeholder{
+  width: 100%;
+  background: rgb(255, 254, 254);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+  background:rgba(0,0,0,.5);
+color: hsl(0, 0%, 100%);
+}
+
+.tblk button {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
